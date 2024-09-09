@@ -2,7 +2,7 @@
     width: 65px;
     height: 36px;
     border-radius: 36px;
-    border: 1px solid var(--color-100);
+    border: 1px solid var(--color-80);
     display: flex;
     align-items: center;
     position: relative;
@@ -16,7 +16,7 @@
         width: 0%;
         height: 100%;
         z-index: 1;
-        background-color: var(--color-100);
+        background-color: red;
         transition: all 2s ease;
 
         &.active{
@@ -28,7 +28,7 @@
         position: absolute;
         width: 30px;
         height: 30px;
-        border: 1px solid var(--color-100);
+        border: 1px solid var(--color-80);
         border-radius: 50%;
         left: 2px;
         background-color: var(--color-20);
