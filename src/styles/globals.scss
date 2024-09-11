@@ -3,12 +3,12 @@
 
 :root{
 
-  --primary-color: #EB5E28;
+  --primary-color: #823329;
 
-  --color-0: #FFFCF2;
-  --color-20: #CCC5B9;
-  --color-80: #403D39;
-  --color-100: #252422;
+  --color-0: #4E6E58;
+  --color-20: #EADEDA;
+  --color-80: #276FBF;
+  --color-100: #183059;
 }
 
 * {
@@ -19,11 +19,11 @@
 
 html,
 body {
-  font-family: "Roboto", sans-serif;
+  font-family: "Pixelify Sans", system-ui;
   max-width: 100vw;
   overflow-x: hidden;
   color: var(--color-100);
-  background-color: var(--color-0);
+  background-color: var(--color-20);
 }
 
 
